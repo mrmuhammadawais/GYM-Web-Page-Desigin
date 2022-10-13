@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+   body{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/pic.jpg');
+    height: 1240px;
+
+    background-color: white;
+   }
+   .left img{
+    width: 77px;
+    padding: 8px;
+   }
+   .left div{
+    text-align: center;
+    filter: invert(80%);
+   }
+   .left{
+    display: inline-block;
+    position:absolute;
+   
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    top:34px;
+    left: 20px;
+   
+   }
+   .mid{
+    display: block;
+    width: 37%;
+    margin: 34px auto;
+    /* border: 2px solid red; */
+    /* display: block; */
+   
+}
+   .right{
+    position:absolute;
+    
+    right: 34px;
+    top: 34px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    
+   }
+   .navbar{
+    display: inline-block;
+   }
+   .navbar li{
+    display: inline-block;
+    /* border-radius: 25px; */
+   }
+   .navbar li a{
+    color: white;
+    text-align: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    /* width: 55%; */
+   }
+   .navbar li a:hover, .navbar li a:active{
+   color: grey;
+   text-decoration: underline;
+   }
+   .btn{
+    margin: 0px 9px;
+    color:black;
+    background-color: burlywood;
+    border: skyblue;
+    border-radius: 9px;
+    width: 100px;
+    height: 40px;
+    padding: left;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+
+   }
+   .btn:hover{
+    text-decoration: underline;
+    color: grey;
+   }
+   
+.container {
+    border: 2px solid white;
+    color: white;
+   margin: 96px 130px;
+    /* margin: 96px; */
+    border-radius: 4px;
+    width: 240px;
+    padding: 103px;
+
+}
+.form-group input{
+    border: 2px solid white;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    padding: 10px;
+    width: 230px;
+    
+    border-color: antiquewhite;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+}
+.container h1{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.form-group button{
+    display: block;
+    margin: 0px 51px;
+}
+</style>
+<body>
+    <header>
+        <div class="left">
+   <img src="img/logo.jpg" alt="">
+   <div>Awais Fitness</div>
+        </div>
+        <div class="mid">
+   <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Fitness Calculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+   </ul>
+        </div>
+        <div class="right">
+<button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+
+    </div>
+</header>
+<div class="container">
+    <h1>The Best Fitness Gym in Pakistan</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+           <input type="text" name="" placeholder="Enter Your Name">
+
+           <form action="noaction.php">
+            <div class="form-group">
+               <input type="text" name="" placeholder="Enter Your Age">
+
+               <form action="noaction.php">
+                <div class="form-group">
+  
+                   <input type="text" name="" placeholder="Enter Your Gender">
+                   <form action="noaction.php">
+                    <div class="form-group">
+                       <input type="text" name="" placeholder="Enter Your Locality">
+                       <button class="btn">submit</button>
+        </div>
+        
+    </form>
+</div>
+</body>
+</html>
